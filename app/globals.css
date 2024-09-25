@@ -4,11 +4,16 @@
 
 html,
 body {
+  height: 100%;
   padding: 0;
   margin: 0;
   font-family: 'Open Sans', sans-serif;
 }
 
+#root, #__next {
+  height: 100%;
+}
+ß
 * {
   box-sizing: border-box;
 }
